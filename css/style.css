@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bgcolor.scrolled{
+    background-color:#ffffff;
+    transition: ease-in-out 0.5s;
+}
+.background-main{
+    background-color:#F1EBF8;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+.background-main:after{
+    content: '';
+    background-image: url('../img/svg/wave.svg');
+    position: absolute;
+    background-size: cover;
+
+}
+.bluecolor{
+    color: #7042C1 ;
+    font-weight: 900;
+}
+.para{
+    color: gray;
+    font-weight: 400;
+}
+.bluecolor1{
+    color: #7142c194;
+    font-weight: 700;
+}
+.btnbg{
+    background-color:#7142c1 ;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.btnbg:hover{
+    text-decoration: none;
+    color: #7142c1;
+    background-color: white;
+    border:2px solid #7142c1;
+    transition-property:color;
+    transition-duration: 1000ms;
+    transition-timing-function: ease;
+}
+.virus-img{
+    width: 40px;
+    height: 40px;
+    
+}
+.bold{
+    font-weight: bold;
+}
+.Headings{
+    color: #7042C1;
+    font-weight:700;
+}
+
+.img-play-vid{
+    position: relative;
+}
+
+.img-play-vid .absolute-block{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.icon-play{
+    background-color:#7042C1 ;
+    color: white ;
+}
+.btn-primary{
+    background-color:#7042C1 !important ;
+    border: 1px solid #7042C1 !important ;
+}
+.card-bg{
+    background-color:#7142c14f ;
+}
+.icons1{
+    
+    margin: 50px;
+    height: 50px ;
+    width:50px;
+}
+.bluecolor2{
+    color: #7142c1ec;
+    font-weight: 500;
+}
+.bluecolor2:hover{
+    color: #7142c1;
+    font-weight: 700;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease;
+}
+
+.social-media a{
+    margin: 20px;
+    height:20px;
+    width: 20px;
+
+}
+.social-media a span img:hover{
+    border-radius: 25%;
+    box-shadow: 0px 10px 5px gray;
+}
